@@ -1,4 +1,4 @@
-Dataset,delta,recall
+Dataset,delta,Recall
 potentials,0.05,1.0
 potentials,0.1,1.0
 potentials,0.2,0.916
@@ -39,4 +39,3 @@ LTMM,0.1,1.0
 LTMM,0.2,0.916
 LTMM,0.4,0.75
 LTMM,0.8,0.58
-

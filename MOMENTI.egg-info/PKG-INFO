@@ -3,7 +3,7 @@ Name: MOMENTI
 Version: 0.2.5
 Summary: Scalable discovery of multidimensional motifs in time series
 Author-email: Francesco Pio Monaco <monacofran@dei.unipd.it>
-Project-URL: Homepage, https://github.com/aidaLabDEI/LEIT-motifs
+Project-URL: Homepage, https://github.com/aidaLabDEI/MOMENTI-motifs
 Project-URL: Paper, https://doi.org/10.48550/arXiv.2502.14446
 Requires-Python: >=3.12
 Description-Content-Type: text/markdown
@@ -52,7 +52,7 @@ The `*_plotter.py` scripts in the folder `results` collect the raw results and p
 ## Installation as a Python package
 
 ```bash
-pip install git+https://github.com/aidaLabDEI/LEIT-motifs
+pip install git+https://github.com/aidaLabDEI/MOMENTI-motifs
 ```
 ```python
 from MOMENTI import MOMENTI
@@ -68,10 +68,15 @@ motifs, _ = MOMENTI(Ts, window, k, (d,d))
 
 ## Citing
 ```bibtex
-@article{ceccarello2025momenti,
-  title={MOMENTI: Scalable Motif Mining in Multidimensional Time Series},
-  author={Ceccarello, Matteo and Monaco, Francesco Pio and Silvestri, Francesco},
-  journal={arXiv preprint arXiv:2502.14446},
-  year={2025}
+@article{Ceccarello2025MOMENTI,
+  author = {Ceccarello, Matteo and Monaco, Francesco Pio and Silvestri, Francesco},
+  title = {{MOMENTI: Scalable Motif Mining in Multidimensional Time Series}},
+  journal = {PVLDB},
+  volume = {18},
+  number = {10},
+  pages = {3463--3476},
+  year = {2025},
+  doi = {10.14778/3748191.3748208},
+  url = {https://github.com/aidaLabDEI/MOMENTI-motifs}
 }
 ```
